@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CipherCraft</title>
+    <link rel="icon" sizes="180x180" href="shield.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <section class="left-section">
+            <div class="input-container">
+                <label for="inputText">Enter Text:</label>
+                <textarea id="inputText" rows="4" cols="50"></textarea>
+            </div>
+            <div class="button-container">
+                <button id="encryptButton">Encrypt</button>
+                <button id="decryptButton">Decrypt</button>
+
+            </div>
+            <div class="output-container">
+                <label for="outputText">Result:</label>
+                <textarea id="outputText" rows="4" cols="50" readonly></textarea>
+            </div>
+            <div class="button-container">
+            <button id="copyButton">Copy Output</button>
+            <button id="clearButton">Clear Output</button>
+            </div>
+        </section>
+        <section class="right-section">
+            <div class="app-info">
+                <h1>Welcome To Cipher Craft</h1>
+                <p>This is a simple tool for encrypting and decrypting text using the AES algorithm.</p>
+            </div>
+        </section>
+    </div>
+    <!--
+    <footer>
+    &copy; 2023 Your Company Name. All Rights Reserved.
+    </footer>
+    --> 
+    <script src="script.js"></script>
+</body>
+</html>
