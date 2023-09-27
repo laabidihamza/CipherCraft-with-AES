@@ -14,11 +14,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const copyButton = document.getElementById("copyButton");
 
     copyButton.addEventListener("click", () => {
-        // Select the output text area
         outputText.select();
-        // Copy the selected text to the clipboard
-        document.execCommand("copy");
-        // Deselect the text area
+        document.execCommand("copy"); // copy text to clipboad
         outputText.blur();
     });
 

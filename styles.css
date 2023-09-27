@@ -28,7 +28,7 @@ body {
 }
 
 .right-section {
-    background-image: url("photo.jpeg");
+    background-image: url("assets/photo.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
