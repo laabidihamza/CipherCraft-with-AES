@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
         outputText.value = ""; // Clear the output textarea
     });
 
+
     const copyButton = document.getElementById("copyButton");
 
     copyButton.addEventListener("click", () => {
