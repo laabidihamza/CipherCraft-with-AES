@@ -2,6 +2,10 @@
 
 CipherCraft is a simple web application that allows users to easily encrypt and decrypt text using the Advanced Encryption Standard (AES) algorithm. This tool provides a secure and user-friendly way to protect sensitive information.
 
+## Screenshot
+![Screenshot](https://github.com/laabidihamza/CipherCraft-with-AES/blob/cc29e0fc7de2e23e5da96fc6310d418dadc12ca0/assets/Screenshot.png)
+*Screenshot of CipherCraft in action.*
+
 ## Features
 
 - **AES Encryption/Decryption**: Utilizes the AES algorithm, a widely recognized and secure encryption method, to protect your data.
